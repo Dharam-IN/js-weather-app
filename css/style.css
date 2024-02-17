@@ -11,3 +11,116 @@
     padding: 30px;
     border-radius: 20px;
 }
+
+.MyForm .inp-searchdiv {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+    border: 2px solid rgb(82,138,180);
+}
+
+.MyForm .inp-searchdiv input.SearchCity {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid transparent;
+    font-size: 1.2rem;
+}
+.MyForm .inp-searchdiv input.SearchCity:focus{
+    outline: none;
+}
+.MyForm .inp-searchdiv button.SearchBtn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    padding: 0 15px;
+    background-color: rgb(82,138,180);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.mainDiv .city-temp {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainDiv .city-temp .city .location i {
+    font-size: 20px;
+    color: #fff;
+}
+
+.mainDiv .city-temp .city .location {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.mainDiv .city-temp .city .location h2 {
+    font-size: 22px;
+    color: #fff;
+}
+
+.mainDiv .city-temp .temp h3 {
+    font-size: 130px;
+    color: #fff;
+}
+
+.mainDiv .city-temp .date p {
+    background-color: #7bc7dd;
+    text-align: center;
+    margin: 9px 0;
+    padding: 4px;
+    border-radius: 15px;
+}
+.mainDiv .mainParent {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 20px;
+}
+
+.mainDiv .mainParent .mainBox {
+    width: 48%;
+    background-color: #62a1c7;
+}
+
+.mainDiv .mainParent .mainBox {
+    width: 48%;
+    background-color: #62a1c7;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.mainDiv .mainParent .mainBox h2 {
+    font-size: 16px;
+}
+
+.mainDiv .mainParent .mainBox h5 {
+    font-size: 24px;
+    margin: 5px 0 10px 0px;
+}
+
+.mainDiv .mainParent .mainBox i {
+    font-size: 37px;
+}
+
+
+
+
+/* Responsive */
+
+@media screen and (max-width: 650px){
+    .mainDiv{
+        max-width: 340px;
+    }
+    .mainDiv .mainParent .mainBox{
+        width: 100%;
+    }
+}
