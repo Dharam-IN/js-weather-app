@@ -2,6 +2,8 @@
 
 ## Description
 This is a simple weather application that provides current weather information for a given location. The app utilizes HTML, CSS, and JavaScript along with the OpenWeatherMap API to fetch real-time weather data.
+## Live Demo
+- **[View Live](https://dharam-in.github.io/js-weather-app/)**
 
 ## Features
 - **Current Weather:** Display current weather conditions such as temperature, humidity, wind speed, etc.
