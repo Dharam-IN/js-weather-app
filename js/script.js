@@ -10,7 +10,10 @@ let fetchApi = async function(cityName){
     // console.log(res.name)
     WeatherAppData(res)
 }
+let dateget = document.getElementById("CurrentDate");
 
+let currentdate = new Date;
+dateget.textContent = currentdate.toDateString();
 
 let WeatherAppData = function(res){
     let cityName = document.getElementById("CityName");
